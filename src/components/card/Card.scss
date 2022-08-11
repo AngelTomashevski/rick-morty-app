@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    color: white;
+    background-color: rgb(60, 62, 68);
+    width: 650px;
+    height: 240px;
+    border-radius: 15px;
+
+
+
+    .card-content {
+        padding: 15px;
+
+        .link-card {
+            color: white;
+            text-decoration: none;
+        }
+
+        .status {
+            display: flex;
+            align-items: center; 
+        }
+
+    }
+ 
+}
+
+
+
+
+
+
+

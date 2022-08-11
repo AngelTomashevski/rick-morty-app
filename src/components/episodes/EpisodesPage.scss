@@ -1,0 +1,19 @@
+
+
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--backgroundGrey);
+    color: white;
+    
+
+    table, th,td {
+        border-bottom: 2px solid black;
+        text-align: center;
+        padding: 15px;   
+    }
+
+    th {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+.card-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--backgroundGrey);
+    color: white;
+    padding: 35px 0px;
+   
+
+
+    .char-img {
+        width: 450px;
+        border-radius: 15px;
+    }
+
+    .card-details-btn{
+        cursor: pointer;
+        width: 100px;
+        height: 30px;
+        &:hover {
+            background-color:lightgreen;
+            width: 130px;
+        }
+    }
+}

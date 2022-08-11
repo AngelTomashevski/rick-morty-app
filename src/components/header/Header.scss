@@ -1,0 +1,20 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 90px;
+    font-weight: bold;
+    background-color: white;
+    position: relative;
+
+    .header-container p {
+        color: rgba(0, 0, 0, 0.629);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
